@@ -1,0 +1,6 @@
+- The "shuffle" argument to the "flow_from_directory" method allows data to be shuffled before batch builds; otherwise, each time this method is called, data will be generated from an alphanumeric order.
+- fill_mode" allows to describe how images should be "repaired" when image transformations cause image destruction or areas that "fall out of the image", like after a rotation. more information here: https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
+- There is no built-in argument to the ImageDataGenerator object to generate a test set; these tools are built for training, and unfortunately not for testing. You either have to build it separately, or not test.
+- You can decide, based on the results, to use only the "FNT" dataset, which is more complete and might returns better results.
+- Convolution networks are adequate for any kind of images in general, you can use them for the FNT dataset.
+- For pre-trained models, it might be difficult to find one that performs transcription; but a model that performs computer vision might be enough!
