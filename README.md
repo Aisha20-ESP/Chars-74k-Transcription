@@ -8,4 +8,4 @@ The dataset contains images of characters of the English language (Latin alphabe
 -7705 character images from real images (EnglishImg)                                                                                                                    
 -3410 images of characters drawn on a tablet (EnglishHnd)                                                                                                                 
 -62992 images of characters from fonts(EnglishFnt)                                                                                                                                                                                                                                                                                             
-That makes a total of 74K (hence the name of the dataset chars74K 
+That makes a total of 74K (hence the name of the dataset chars74K)
